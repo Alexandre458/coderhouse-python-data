@@ -1,89 +1,65 @@
-# Especialização em Análise de Dados com Python - CoderHouse
 
-Este repositório contém os exercícios, projetos e anotações da minha especialização em **Análise de Dados com Python** oferecida pela **CoderHouse**. O curso aborda uma ampla gama de tópicos essenciais para o trabalho com dados, desde os fundamentos de programação até ferramentas avançadas de manipulação e análise de dados. Abaixo estão os principais conteúdos abordados no curso.
+# Análise de Dados
 
-## Conteúdo do Curso
+Este projeto realiza a extração e tratamento de dados de diversas APIs, focado em organizar informações sobre diferentes regiões do mundo.
 
-### Módulo 1: Fundamentos de Programação
-1. **Introdução à Programação**  
-   Conceitos básicos de programação, lógica e estrutura de um programa.
+## 🚀 Começando
 
-2. **Fundamentos de Programação I**  
-   Variáveis, operadores e controle de fluxo.
+Siga as instruções abaixo para executar o projeto localmente para fins de desenvolvimento e teste.
 
-3. **Fundamentos de Programação II**  
-   Estruturas de dados, loops e funções.
+### 📋 Pré-requisitos
 
-4. **Fundamentos de Programação III**  
-   Funções avançadas e manipulação de arquivos.
+Instale as bibliotecas necessárias:
 
-5. **Programação Orientada a Objetos**  
-   Conceitos de classes, objetos, herança e polimorfismo.
+```
+pip install requests pandas plyer sqlite3
+```
 
-6. **GIT e Controle de Versão**  
-   Uso do Git para controle de versão e colaboração em projetos.
+### 🔧 Instalação
 
-### Módulo 2: Introdução à Análise de Dados
-7. **Introdução a NumPy e Pandas**  
-   Bibliotecas para manipulação e análise de dados.
+1. Clone o repositório:
 
-8. **Manipulação de Dados com Pandas I**  
-   Operações básicas de DataFrames, seleção e filtragem de dados.
+```
+git clone https://github.com/Alexandre458/coderhouse-python-data.git
+```
 
-9. **Introdução a Bancos de Dados**  
-   Conceitos de bancos de dados relacionais e SQL.
+2. Acesse o diretório do projeto:
 
-10. **Manipulação de Dados com Pandas II**  
-    Operações avançadas com Pandas, agrupamento e transformação de dados.
+```
+cd seu_repositorio
+```
 
-### Módulo 3: Ciência de Dados
-11. **Visualização de Dados**  
-    Introdução a bibliotecas de visualização como Matplotlib e Seaborn.
+3. Instale as dependências:
 
-12. **ETL (Extract, Transform, Load)**  
-    Processos de extração, transformação e carga de dados.
+```
+pip install -r requirements.txt
+```
 
-13. **Data Wrangling I**  
-    Técnicas de limpeza e preparação de dados.
+### ⚙️ Executando os testes
 
-14. **Data Wrangling II**  
-    Técnicas avançadas de preparação e transformação de dados.
+Execute os testes automatizados com:
 
-15. **Introdução à Ciência de Dados**  
-    Fundamentos de análise de dados, estatística e aprendizado de máquina.
+```
+python -m unittest discover
+```
 
-16. **Ferramentas e Extensões**  
-    Ferramentas auxiliares para análise de dados.
+### 📦 Implantação
 
-### Módulo 4: Big Data e Ferramentas Avançadas
-17. **Data Mining**  
-    Extração de padrões e conhecimento a partir de grandes volumes de dados.
+Para deploy, certifique-se de configurar as variáveis de ambiente e o acesso às APIs corretamente.
 
-18. **PySpark I**  
-    Introdução ao processamento de grandes volumes de dados com PySpark.
+## 🛠️ Tecnologias Utilizadas
 
-19. **PySpark II**  
-    Técnicas avançadas de processamento com PySpark.
+* [Python](https://www.python.org/) - Linguagem de programação
+* [Pandas](https://pandas.pydata.org/) - Biblioteca para manipulação de dados
+* [Requests](https://requests.readthedocs.io/en/latest/) - Biblioteca HTTP para Python
 
-20. **Apresentação do Projeto Final**  
-    Desenvolvimento e apresentação de um projeto prático utilizando todas as técnicas aprendidas.
+## ✒️ Autor
 
-## Tecnologias Utilizadas
-- **Python**
-- **NumPy**
-- **Pandas**
-- **Matplotlib**
-- **Seaborn**
-- **PySpark**
-- **Git**
-- **SQL**
+* **Dev - Alexandre Oliveira** - *Desenvolvedor* - [SeuPerfil](https://github.com/Alexandre458)
 
-## Projetos
-Durante o curso, desenvolvi diversos projetos práticos para aplicar os conhecimentos adquiridos em cada módulo. Alguns dos projetos incluem:
+## 📄 Licença
 
-- Limpeza e análise de grandes conjuntos de dados.
-- Visualização interativa de dados.
-- Processamento de dados em larga escala com PySpark.
+Este projeto está licenciado sob a licença MIT.
 
 ## Contato
 Se você quiser saber mais sobre o curso ou discutir projetos de análise de dados, fique à vontade para me contatar:
